@@ -1,12 +1,3 @@
-# torrra
-
-> A Python tool that lets you find and download torrents without leaving your CLI.
-
-![PyPI](https://img.shields.io/pypi/v/torrra)
-![Python](https://img.shields.io/pypi/pyversions/torrra)
-![License](https://img.shields.io/github/license/stabldev/torrra)
-
-![demo](./docs/demo.gif)
 
 ## Features
 
@@ -29,7 +20,7 @@ pipx install torrra
 For local development:
 
 ```bash
-git clone https://github.com/yourusername/torrra
+git clone https://github.com/dhruvsahgal2003/torrent_cli
 cd torrra
 # or use requirements.txt
 uv sync
@@ -42,14 +33,7 @@ Currently supported:
 
 - YTS (movies)
 - MagnetDL
-- Movierulz (movies)
-
-Planned:
-
-- 1337x
-- GLodls
-- Nyaa (anime-only, optional)
-- Community-driven additions
+- Movierulz (moviesr)
 
 ## Dev Notes
 
@@ -61,12 +45,3 @@ Planned:
   - `rich` for CLI visuals
   - `questionary` for input prompts
 
-## Contributing & Notes
-
-This project is a weekend-hacker side project- built for fun and learning. It's not a polished product (yet), but it works well enough for daily use!
-
-If you run into any bugs, have suggestions, or want to help improve it, feel free to [open an issue](https://github.com/stabldev/torrra/issues) or even send a pull request. All contributions are welcome.
-
-## License
-
-MIT. Copyright (c) [stabldev](https://github.com/stabldev)
